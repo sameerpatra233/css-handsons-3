@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: gray;
+    padding: 5px;
+}
+/* ******************HEADER BOX********** */
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif monospace;
+    width: 600px;
+    border: 8px solid red;
+    border-radius: 15px;
+    padding: 30pxpx 0px; 
+    font-style: italic;
+    font-weight: bold;
+    font-size:30px ;
+    background-color: white;
+     margin: auto; 
+    box-shadow: 10px 10px purple;
+    color: maroon;
+    text-shadow: 2px 2px 3px purple;
+    display: flex;
+    justify-content: center;
+     flex-direction: column; 
+    align-items: center;
+    row-gap: 20px; 
+
+}
+
+.line{
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: 10PX 0PX ;
+    
+}
+    /**************************MIDLE BOX***************  */
+section{
+    border: 8px solid green;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+/* .box */
+.sam{
+    height: 300px;
+    width: 300px;
+    border: 10PX SOLID red;
+    box-shadow: 8px 8px purple;
+    border-radius: 15PX;
+    background-color: white;
+    text-shadow: 2PX 2PX 3PX purple;
+
+}
+.box1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px ;
+    float: left;
+    margin-bottom: 120px;
+
+}
+.sam-p{
+    padding-bottom: 15px;
+}
+.box2{
+    float: right;
+    margin-bottom: 120px;
+    margin-right: 80px;
+    position: relative;
+    
+}
+.box2 img{
+    width: 230px;   
+    position: absolute;
+    top: 46px;
+    left: 35px;
+    border: 2px solid black;
+    transform: translate(-50%-50%);
+}
+
+ .box3{ 
+     float: left; 
+    clear: left;
+    margin-left: 5pxpx;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+ } 
+.box4 p{
+    padding-top: 20px;
+ } 
+ 
+.box4{
+    float: right;
+    clear: right;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold; 
+     
+}
+.box4 p{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.box4 input{
+    text-align: center;
+    padding: 5px 3px;
+}
+.box4 input[type=submit]{
+    background-color: red;
+    border-radius: 30px;
+
+ } 
+/* ***************************CONTAINER BOX************************ */
+
+.section2{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    border: 8px solid purple;
+    background-color:green;
+    height: 730px;
+    padding: 0px 5px;
+}
+.section2 h1{
+    padding: 30px 0px;
+    font-weight: bold;
+
+}
+.box{
+    width: 480px;
+    height: 300px;
+    background-color: yellow;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 40px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+}
+.box-1{
+    float: left;
+    padding-top: 40px;
+}
+h2{
+    padding-bottom: 20px;
+    
+    font-size: 30px;
+}
+
+.box p{
+    padding-top: 20px;
+
+}
+.box-2{
+    float: right;
+    padding-bottom: 20px;
+
+}
+.box-3{
+    width: 990px;
+    clear: both;
+    margin-top: 30px;
+    padding-bottom: 50px;
+
+}
+/* *****************************FOOTER BOX **************************************** */
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+    border: 8px solid red;
+    padding: 20px 0px ;
+    border-radius: 15px;
+    font-style: italic;
+     font-weight: bold;
+     background-color: yellow;
+     margin: auto;
+     box-shadow: 8px 8px purple;
+     color: maroon;
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     position: fixed;
+     bottom: 70px;
+     left: 50%;
+     transform: translateX(-50%);
+  
+}
+.offers{
+    font-size: 20px;
+}
